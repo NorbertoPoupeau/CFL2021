@@ -10,5 +10,5 @@ if (mesCompra==("Octubre")){
     console.log("15% Descuento $", descuento)
     console.log("Su Pago Final $", tiketFinal)
 }
-    else {console.log("LA PIFIASTE,CHABON,VOLVE MAÑANA")
+    else {console.log("al mes ingresado no le corresponde descuento")
 }
