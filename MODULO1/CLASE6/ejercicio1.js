@@ -1,6 +1,6 @@
 let readlineSync = require ("readline-sync");
 let clave = readlineSync.question("indique clave: ");
-let contador
+let contador;
 for (contador=1;contador<4;contador++) {
     if ((clave!="eureka") && (contador<4)){
         
