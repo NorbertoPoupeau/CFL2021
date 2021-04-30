@@ -15,6 +15,8 @@ while (numIngreso!=0){
     }
     numIngreso = readlineSinc.questionInt("ingrese un numero entero: ");//repetir ingreso de numeros hasta "cero"
 }
-console.log ("el numero mayor es: ", numMax);
-console.log ("el numero menor es: ", numMin);
-console.log ("la media es: ", sumatoria/cantIngreso);
+if (cantIngreso!=0){
+    console.log ("el numero mayor es: ", numMax)
+    console.log ("el numero menor es: ", numMin)
+    console.log ("la media es: ", sumatoria/cantIngreso)
+    }
