@@ -1,7 +1,7 @@
 function cargarVector(v,cantidad){
     let i;
     for(i=0;i<cantidad;i++){
-        v[i]=readlineSinc.questionInt("ingrese valor de la posicion",i,": ");
+        v[i]=readlineSync.questionInt("ingrese valor de la posicion",i,": ");
     }
 }
 function mostrarVector(v,cantidad){
@@ -16,7 +16,7 @@ function sumarVector(v1,v2,vSuma,cantidad){
         vSuma[i]=v1[i]+v2[i];
     }
 }
-let readlineSinc=require("readline-sync");
+let readlineSync=require("readline-sync");
 let v1=new Array(6);
 let v2=new Array(6);
 let vSuma=new Array(6);
