@@ -1,0 +1,16 @@
+body{
+    background-color: khaki;
+}
+h1{
+    text-align-last: center;
+    text-decoration-line: underline;
+    text-orientation: sideways-right;
+    text-decoration-style: double;
+}
+.styloP{
+    font-family: cursive;
+    font-size: medium;
+    text-decoration: underline;
+    text-decoration: aquamarine;
+    text-align-last: center;
+}

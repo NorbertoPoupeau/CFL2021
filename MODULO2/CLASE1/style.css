@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(0, 255, 200, 0.527);
+}
+h1{
+    color: brown;
+    text-shadow: blue;
+    text-underline-position: above;
+}
+h2{
+    color: darkblue;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+h3{
+    color: darkgreen;
+}
