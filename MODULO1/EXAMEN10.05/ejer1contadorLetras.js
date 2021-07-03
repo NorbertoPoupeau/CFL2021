@@ -1,8 +1,10 @@
 let readlineSync=require("readline-sync");
 let textoOrigen=readlineSync.question("ingrese texto a analizar: ");//texto ingresado por usuario
+let abecedario=new Array("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
+let nAbecedario=abecedario.length;
 let cantidadCadaLetra=new Array(26);//arreglo que contiene la cantidad de cada letra en el texto
 let porcentajeCadaLetra=new Array(26);//contiene el porcentaje de cada letra contra el total del texto
-let n=textoOrigen.length//defino a la variable "n" como el tamaño del string
+let n=textoOrigen.length;//defino a la variable "n" como el tamaño del string
 function contarLetras(n,textoOrigen,cantidadCadaLetra){//recorro el texto y cargo el arreglo con cada letra
     let i;
     let textoTodoMinuscula=textoOrigen.toLowerCase().trim();//paso el texto completo a un solo tipo de letra

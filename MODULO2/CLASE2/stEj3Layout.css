@@ -1,0 +1,27 @@
+    
+.divStylo{
+    background: aquamarine;
+    border-radius: 3px;
+    border: solid 0.15rem;
+    height: 100%;
+}
+.styloContainer1{
+    background: cadetblue;
+    width: 100%;
+    height: 70px;
+    border: solid .15rem;
+    border-radius: 8px;
+    margin: 0.5rem;
+}
+.styloContainer2{
+    background: cadetblue;
+    width: 100%;
+    height: 150px;
+    border: solid .15rem;
+    border-radius: 8px;
+    margin: 0.5rem;
+    padding: 1rem;
+
+}
+
+

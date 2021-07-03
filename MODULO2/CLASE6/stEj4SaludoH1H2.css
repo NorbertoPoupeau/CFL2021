@@ -1,0 +1,15 @@
+.styleH1{
+    background-color: aquamarine;
+    font-size: x-large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.styleH2{
+    background-color: burlywood;
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.saludo{
+    background-color: cadetblue;
+    width: 100%;
+    height: 500px;
+}
